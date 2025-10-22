@@ -4,8 +4,8 @@ This project delivers a robust, stateless backend API built with Spring Boot, se
 <br>http://spring-jwt-env.eba-wej5cii3.ap-south-1.elasticbeanstalk.com/login.html
 <br>
 ![](./images/arch.png)
-![](./images/ok6.png)
 ![](./images/ok2.png)
 ![](./images/ok3.png)
 ![](./images/ok4.png)
 ![](./images/ok5.png)
+![](./images/ok6.png)
