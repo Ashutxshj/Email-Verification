@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard - Secure JWT</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css">
+    
+    <style>
+        body {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2em 1em;
+            text-align: center;
+        }
+        .success-message {
+            background-color: var(--code-bg-color);
+            color: var(--text-color);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-top: 2em;
+        }
+        .button-group {
+            margin-top: 2em;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Welcome to the Protected Dashboard!</h1>
+    
+    <div class="success-message">
+        <p>Your authentication token was successfully verified.</p>
+        <p>This page confirms the **stateless JWT flow** and **secure redirection** are functional!</p>
+    </div>
+    
+    <div class="button-group">
+        <button onclick="handleLogout()">Logout</button> 
+    </div>
+    
+    <script src="auth.js"></script> 
+</body>
+</html>
